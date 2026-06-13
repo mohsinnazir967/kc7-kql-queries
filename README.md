@@ -21,14 +21,12 @@ kc7-kql-queries/
 │
 └── investigations/
     ├── security-analyst-1/
-    │   ├── README.md                                            ← SA-I module overview & skills reference
     │   ├── 01-rap-beef-phishing-account-takeover.md             ← 10 queries | OSINT → Account Takeover
     │   ├── 02-clouthaus-social-media-compromise.md              ← 15 queries | Fake Brand Deal → PII Exfil
     │   ├── 03-scandal-in-valdoria-political-mystery.md          ← 31 queries | Backdoor → SSH → Influence Op
     │   └── 04-jojos-hospital-ransomware.md                      ← 23 queries | SEO Poison → Cobalt Strike → LockByte
     │
     └── security-analyst-2/
-        ├── README.md                                            ← SA-II module overview & skills reference
         ├── 00-kql-101-intro.md                                  ← 12 queries | Core KQL operators & patterns
         ├── 01-encryptodera-ransomware-insider-threat.md         ← 38 queries | Ransomware + Insider Data Exfil
         ├── 02-valdoriavotes-election-interference.md            ← 20 queries | Phishing → AI Enum → Vendor Impersonation
