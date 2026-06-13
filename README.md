@@ -8,8 +8,6 @@
 ![Queries](https://img.shields.io/badge/Total%20Queries-79-purple?style=flat-square)
 ![Progress](https://img.shields.io/badge/Security%20Analyst%20I-100%25%20Complete-brightgreen?style=flat-square)
 
----
----
 
 ## KC7 KQL MITRE Queries Progress
 
