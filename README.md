@@ -34,7 +34,7 @@ kc7-kql-queries/
         ├── 02-valdoriavotes-election-interference.md            ← 20 queries | Phishing → AI Enum → Vendor Impersonation
         ├── 03-whiskers-and-wonders-network-c2.md                ← 22 queries | Network Concepts + C2 Beaconing
         └── 04-solvi-systems-supply-chain-ics.md                 ← 27 queries | Supply Chain → ICS Targeting
----
+```
 
 ## 🎯 About This Repository
 
