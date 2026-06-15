@@ -7,6 +7,7 @@
 ![MITRE](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-red?style=flat-square)
 ![Queries](https://img.shields.io/badge/Total%20Queries-79-purple?style=flat-square)
 ![Progress](https://img.shields.io/badge/Security%20Analyst%20I-100%25%20Complete-brightgreen?style=flat-square)
+![Progress](https://img.shields.io/badge/Security%20Analyst%20II-100%25%20Complete-brightgreen?style=flat-square)
 
 ## 📂 Repository Structure
 
