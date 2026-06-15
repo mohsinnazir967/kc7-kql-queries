@@ -8,8 +8,7 @@
 ![Queries](https://img.shields.io/badge/Total%20Queries-79-purple?style=flat-square)
 ![Progress](https://img.shields.io/badge/Security%20Analyst%20I-100%25%20Complete-brightgreen?style=flat-square)
 
-
-## KC7 KQL MITRE Queries Progress
+## 📂 Repository Structure
 
 ```
 kc7-kql-queries/
@@ -35,6 +34,8 @@ kc7-kql-queries/
         ├── 03-whiskers-and-wonders-network-c2.md                ← 22 queries | Network Concepts + C2 Beaconing
         └── 04-solvi-systems-supply-chain-ics.md                 ← 27 queries | Supply Chain → ICS Targeting
 ```
+
+---
 
 ## 🎯 About This Repository
 
@@ -77,26 +78,26 @@ Network analysis, C2 detection, supply chain attacks, ICS targeting, advanced KQ
 
 ---
 
-## 🗂️ All Investigations
+## 🗂️ Investigations
 
 ### Security Analyst I
 
-| # | Title | Attack Type | Queries | Key Techniques |
+| # | Title | Queries | Key Techniques | Link |
 |---|---|---|---|---|
-| 01 | A Rap Beef — Phishing & Account Takeover | OSINT → Spearphishing → Account Takeover | 10 | T1593, T1566.002, T1078 |
-| 02 | CloutHaus — Social Media Leads to Compromise | Fake Brand Deal → Credential Harvest → PII Exfil | 15 | T1566.002, T1056.003, T1114.003 |
-| 03 | A Scandal in Valdoria — A Political Mystery | Spearphishing → PowerShell Backdoor → SSH Tunnel → Influence Op | 31 | T1059.001, T1572, T1491 |
-| 04 | Jojo's Hospital — A Ransomware Investigation | SEO Poisoning → Cobalt Strike → Lateral Movement → LockByte | 23 | T1189, T1219, T1046, T1486 |
+| 01 | A Rap Beef — Phishing & Account Takeover | 10 | T1593, T1566.002, T1078 | [→ Open](investigations/security-analyst-1/01-rap-beef-phishing-account-takeover.md) |
+| 02 | CloutHaus — Social Media Leads to Compromise | 15 | T1566.002, T1056.003, T1114.003 | [→ Open](investigations/security-analyst-1/02-clouthaus-social-media-compromise.md) |
+| 03 | A Scandal in Valdoria — A Political Mystery | 31 | T1059.001, T1572, T1491 | [→ Open](investigations/security-analyst-1/03-scandal-in-valdoria-political-mystery.md) |
+| 04 | Jojo's Hospital — A Ransomware Investigation | 23 | T1189, T1219, T1046, T1486 | [→ Open](investigations/security-analyst-1/04-jojos-hospital-ransomware.md) |
 
 ### Security Analyst II
 
-| # | Title | Attack Type | Queries | Key Techniques |
+| # | Title | Queries | Key Techniques | Link |
 |---|---|---|---|---|
-| 00 | KQL 101 — Intro to Kusto | Foundational Skills | 12 | Core operators, `let`, `in()` |
-| 01 | Encryptodera — Ransomware & Insider Threat | Insider → Account Takeover → Ransomware + Parallel Data Exfil | 38 | T1486, T1003.001, T1484.001, T1567 |
-| 02 | ValdoriaVotes — Election Interference | Phishing → Cred Harvest → AI Enumeration → Vendor Impersonation | 20 | T1566.002, T1056.003, T1583, T1530 |
-| 03 | Whiskers & Wonders — Network & C2 | Network Fundamentals + Phishing → C2 Beaconing | 22 | T1071.001, T1071.004, T1572 |
-| 04 | Solvi Systems — Supply Chain & ICS | Web Recon → Phishing → ecobug C2 → Lateral Movement → Exfil | 27 | T1190, T1583, T1021.002, T1567 |
+| 00 | KQL 101 — Intro to Kusto | 12 | Core operators, `let`, `in()` | [→ Open](investigations/security-analyst-2/00-kql-101-intro.md) |
+| 01 | Encryptodera — Ransomware & Insider Threat | 38 | T1486, T1003.001, T1484.001, T1567 | [→ Open](investigations/security-analyst-2/01-encryptodera-ransomware-insider-threat.md) |
+| 02 | ValdoriaVotes — Election Interference | 20 | T1566.002, T1056.003, T1583, T1530 | [→ Open](investigations/security-analyst-2/02-valdoriavotes-election-interference.md) |
+| 03 | Whiskers & Wonders — Network & C2 | 22 | T1071.001, T1071.004, T1572 | [→ Open](investigations/security-analyst-2/03-whiskers-and-wonders-network-c2.md) |
+| 04 | Solvi Systems — Supply Chain & ICS | 27 | T1190, T1583, T1021.002, T1567 | [→ Open](investigations/security-analyst-2/04-solvi-systems-supply-chain-ics.md) |
 
 **Total queries documented: 186 across 9 investigations**
 
@@ -119,6 +120,8 @@ Network analysis, C2 detection, supply chain attacks, ICS targeting, advanced KQ
 | Command & Control | T1071, T1071.001, T1071.004, T1219, T1572 |
 | Exfiltration | T1567 |
 | Impact | T1484.001, T1486, T1491 |
+
+→ Full index: [docs/mitre-attack-index.md](docs/mitre-attack-index.md)
 
 ---
 
@@ -147,13 +150,15 @@ Network analysis, C2 detection, supply chain attacks, ICS targeting, advanced KQ
 | `ProxyEvents` | `CommonSecurityLog` (proxy source) |
 | `AIPrompts` | Custom / Azure OpenAI logs |
 
+→ Full reference with starter queries: [docs/sentinel-table-reference.md](docs/sentinel-table-reference.md)
+
 ---
 
 ## 👤 About Me
 
 SOC Analyst in training — building practical threat hunting and incident response skills through KC7, KQL, and MITRE ATT&CK.
 
-🔗 **Platform:** [KC7 Cyber](https://kc7cyber.com)  
+🔗 **Platform:** [KC7 Cyber](https://kc7cyber.com/profile/58c74f1f)  
 📖 **Language:** KQL (Kusto Query Language)  
 ☁️ **Target Environment:** Microsoft Sentinel / Azure Data Explorer  
 🎯 **Next Goal:** Security Analyst III certification
